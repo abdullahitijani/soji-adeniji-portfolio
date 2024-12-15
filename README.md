@@ -1,5 +1,5 @@
 # Soji Adeniji Portfolio Website 🌐  
-Developed by [Your Name]  
+Developed by Abdullahi Tijani 
 
 ## Website Preview  
 ![Project Preview](assets/project-preview.png)  
