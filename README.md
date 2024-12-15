@@ -1,34 +1,50 @@
-# Soji Adeniji Portfolio Website  
+# Soji Adeniji Portfolio Website 🌐  
+Developed by [Your Name]  
 
-Welcome to the official portfolio website of **Soji Adeniji**, a highly skilled and experienced professional showcasing expertise, projects, and achievements in civil engineering and related disciplines.  
+## Website Preview  
+![Project Preview](assets/project-preview.png)  
 
-## About the Website  
-This website highlights Soji Adeniji's dedication to delivering quality work, unwavering commitment, and proven expertise. It serves as a platform to explore past projects, professional achievements, and services offered, providing insights into the passion and precision behind every endeavor.  
+**Live Site:** [sojiadeniji.com](https://sojiadeniji.com)  
 
-## Features  
-- **About Section**: Learn more about Soji Adeniji's background, skills, and professional journey.  
-- **Portfolio**: A detailed showcase of projects, including case studies, designs, and completed works.  
-- **Contact Page**: Easy access to connect and collaborate.  
-- **Responsive Design**: Optimized for seamless viewing across all devices.  
+## 📖 About the Project  
+The **Soji Adeniji Portfolio Website** is a professional platform designed to showcase the expertise, projects, and achievements of Soji Adeniji, a seasoned civil engineer. This project highlights innovative solutions, commitment to excellence, and quality work, reflecting the skills and values that drive his success.  
 
-## Technologies Used  
-The website is built using modern web development technologies for performance and scalability:  
-- **JavaScript**: 55.8%  
-- **HTML**: 31.4%  
-- **CSS**: 10.0%  
-- **SCSS**: 1.5%  
-- **Less**: 1.1%  
-- **PHP**: 0.2%  
+The website serves as a portfolio to explore past projects, learn about professional services, and connect with potential clients or collaborators.  
 
-## How to Contribute  
-This is a personal portfolio website, but if you have suggestions or improvements, feel free to submit an issue or reach out via the contact page on the website.  
+## 💡 Features of the Website  
 
-## License  
-This project is licensed under the [MIT License](LICENSE).  
+### Comprehensive Portfolio:  
+- **Project Highlights**: Detailed case studies of civil engineering projects.  
+- **Professional Journey**: Insights into Soji Adeniji's career and accomplishments.  
+- **Services Offered**: Clear overview of expertise and available services.  
 
-## Contact  
-Visit the live site: [sojiadeniji.com](https://sojiadeniji.com/)  
-For inquiries, connect via the contact page or email.  
+### User-Focused Design:  
+- **Intuitive Navigation**: Effortless access to all sections.  
+- **Responsive Design**: Optimized for desktop, tablet, and mobile users.  
+- **Contact Form**: Easy to reach out for inquiries or collaborations.  
 
----
-**Crafted with care to reflect expertise and professionalism.**
+### Global Accessibility:  
+- **Cross-Browser Compatibility**: Ensuring a seamless experience on all major browsers.  
+- **Optimized Loading Speed**: Designed to provide fast and smooth interactions.  
+
+## 🛠️ Technologies Used  
+- **Frontend**: HTML5, CSS3, SCSS, JavaScript, Less  
+- **Backend**: PHP  
+- **Version Control**: GitHub  
+- **Hosting**: Deployed on a secure and high-performance hosting environment  
+
+## 📌 Key Highlights  
+- **Showcase of Expertise**: Demonstrates professional achievements in civil engineering.  
+- **Responsive Interface**: Provides an engaging user experience on any device.  
+- **Optimized Performance**: Fast and efficient for a global audience.  
+
+## 🙌 About the Developer  
+I am a professional web developer with expertise in creating high-quality and user-friendly websites. I focus on delivering tailored solutions that combine functionality, performance, and design excellence.  
+
+Feel free to connect for collaboration opportunities!  
+
+**Contact:** [Your Contact Info or Website]  
+
+---  
+
+**Crafted to reflect professionalism and attention to detail.**  
