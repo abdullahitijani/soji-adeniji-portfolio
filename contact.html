@@ -172,92 +172,27 @@
                         <div class="col-md-6">
                             <div class="contact-form">
                                 <div id="success"></div>
-                                <form name="inquiryForm" id="contactForm" novalidate="novalidate" action="submit_form.php">
-                                    <!-- First Name -->
+                                <form name="sentMessage" id="contactForm" novalidate="novalidate" action="submit_form.php">
                                     <div class="control-group">
-                                        <input type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name" required="required" data-validation-required-message="Please enter your first name" />
-                                        <p class="help-block text-danger"></p>
-                                    </div>
-                                
-                                    <!-- Last Name -->
-                                    <div class="control-group">
-                                        <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Last Name" required="required" data-validation-required-message="Please enter your last name" />
-                                        <p class="help-block text-danger"></p>
-                                    </div>
-                                
-                                    <!-- Company/Individual -->
-                                    <div class="control-group">
-                                        <input type="text" class="form-control" id="company" name="company" placeholder="Company/Individual" required="required" data-validation-required-message="Please enter the name of your company or indicate if individual" />
-                                        <p class="help-block text-danger"></p>
-                                    </div>
-                                
-                                    <!-- Services -->
-                                    <div class="control-group">
-                                        <select class="form-control" id="services" name="services" required="required" data-validation-required-message="Please select a service">
-                                            <option value="" disabled selected>Select Service</option>
-                                            <option value="Building Construction">Building Construction</option>
-                                            <option value="Civil Engineering Works">Civil Engineering Works</option>
-                                            <option value="Real Estate">Real Estate</option>
-                                            <option value="Specialized Construction Services">Specialized Construction Services</option>
-                                            <option value="Development Consultancy">Development Consultancy</option>
-                                            <option value="Project Management Services">Project Management Services</option>
-                                        </select>
-                                        <p class="help-block text-danger"></p>
-                                    </div>
-                                
-                                    <!-- Phone Number -->
-                                    <div class="control-group">
-                                        <input type="tel" class="form-control" id="phone" name="phone" placeholder="Phone Number" required="required" data-validation-required-message="Please enter your phone number" />
-                                        <p class="help-block text-danger"></p>
-                                    </div>
-                                
-                                    <!-- Location -->
-                                    <div class="control-group">
-                                        <select class="form-control" id="country" name="country" required="required" data-validation-required-message="Please select your country">
-                                            <option value="" disabled selected>Select Country</option>
-                                        </select>
+                                        <input type="text" class="form-control" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
                                         <p class="help-block text-danger"></p>
                                     </div>
                                     <div class="control-group">
-                                        <input type="text" class="form-control" id="state" name="state" placeholder="State" required="required" data-validation-required-message="Please enter your state" />
+                                        <input type="email" class="form-control" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
                                         <p class="help-block text-danger"></p>
                                     </div>
-                                
-                                    <!-- Brief/Inquiry Form -->
                                     <div class="control-group">
-                                        <textarea class="form-control" id="inquiry" name="inquiry" placeholder="Brief/Inquiry Details" required="required" data-validation-required-message="Please provide brief details about your inquiry"></textarea>
+                                        <input type="text" class="form-control" id="subject" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject" />
                                         <p class="help-block text-danger"></p>
                                     </div>
-                                
-                                    <!-- Submit Button -->
+                                    <div class="control-group">
+                                        <textarea class="form-control" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
+                                        <p class="help-block text-danger"></p>
+                                    </div>
                                     <div>
-                                        <button class="btn btn-primary" type="submit" id="sendInquiryButton">Submit Inquiry</button>
+                                        <button class="btn" type="submit" id="sendMessageButton">Send Message</button>
                                     </div>
                                 </form>
-                                
-                                <script>
-                                    // Fetch countries dynamically
-                                    fetch('https://restcountries.com/v3.1/all')
-                                        .then(response => response.json())
-                                        .then(data => {
-                                            const countrySelect = document.getElementById('country');
-                                            data.sort((a, b) => a.name.common.localeCompare(b.name.common))
-                                                .forEach(country => {
-                                                    const option = document.createElement('option');
-                                                    option.value = country.name.common;
-                                                    option.textContent = country.name.common;
-                                                    countrySelect.appendChild(option);
-                                                });
-                                        })
-                                        .catch(error => console.error('Error fetching countries:', error));
-                                
-                                    document.getElementById('contactForm').addEventListener('submit', function(event) {
-                                        event.preventDefault(); // Prevent form submission for demo purposes
-                                        alert('Thank you! We have received your inquiry and will contact you shortly.');
-                                        // Add your form submission logic here
-                                    });
-                                </script>
-                                
                             </div>
                         </div>
                     </div>
